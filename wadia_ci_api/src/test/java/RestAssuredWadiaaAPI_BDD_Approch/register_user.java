@@ -17,7 +17,7 @@ public class register_user {
 
     @BeforeClass
     public void registerPostData() {
-    
+    System.out.println();
      
 
         RestAssured.baseURI = "http://localhost:3001/v1";

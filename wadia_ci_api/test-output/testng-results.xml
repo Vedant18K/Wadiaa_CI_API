@@ -1,41 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-13T18:17:12 IST" name="Default suite" finished-at="2024-09-13T18:17:18 IST" duration-ms="5338">
+  <suite started-at="2024-09-16T12:28:59 IST" name="Default suite" finished-at="2024-09-16T12:29:01 IST" duration-ms="1937">
     <groups>
     </groups>
-    <test started-at="2024-09-13T18:17:12 IST" name="Default test" finished-at="2024-09-13T18:17:18 IST" duration-ms="5338">
-      <class name="RestAssuredWadiaaAPI_BDD_Approch.register_user">
-        <test-method is-config="true" signature="registerPostData()[pri:0, instance:RestAssuredWadiaaAPI_BDD_Approch.register_user@52bf72b5]" started-at="2024-09-13T18:17:12 IST" name="registerPostData" finished-at="2024-09-13T18:17:13 IST" duration-ms="330" status="PASS">
+    <test started-at="2024-09-16T12:28:59 IST" name="Default test" finished-at="2024-09-16T12:29:01 IST" duration-ms="1937">
+      <class name="RestAssuredWadiaaAPI_BDD_Approch.register_admin">
+        <test-method is-config="true" signature="registerAdminPostData()[pri:0, instance:RestAssuredWadiaaAPI_BDD_Approch.register_admin@6d763516]" started-at="2024-09-16T12:28:59 IST" name="registerAdminPostData" finished-at="2024-09-16T12:29:00 IST" duration-ms="467" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerPostData -->
-        <test-method signature="checkFirstNameWithNumbers()[pri:1, instance:RestAssuredWadiaaAPI_BDD_Approch.register_user@52bf72b5]" started-at="2024-09-13T18:17:13 IST" name="checkFirstNameWithNumbers" finished-at="2024-09-13T18:17:14 IST" duration-ms="980" status="PASS">
+        </test-method> <!-- registerAdminPostData -->
+        <test-method signature="checkFirstNameWithNumbers()[pri:1, instance:RestAssuredWadiaaAPI_BDD_Approch.register_admin@6d763516]" started-at="2024-09-16T12:29:00 IST" name="checkFirstNameWithNumbers" finished-at="2024-09-16T12:29:01 IST" duration-ms="1288" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkFirstNameWithNumbers -->
-        <test-method signature="checkLastnameWithNumber()[pri:2, instance:RestAssuredWadiaaAPI_BDD_Approch.register_user@52bf72b5]" started-at="2024-09-13T18:17:14 IST" name="checkLastnameWithNumber" finished-at="2024-09-13T18:17:14 IST" duration-ms="31" status="PASS">
+        <test-method signature="checkLastnameWithNumber()[pri:2, instance:RestAssuredWadiaaAPI_BDD_Approch.register_admin@6d763516]" started-at="2024-09-16T12:29:01 IST" name="checkLastnameWithNumber" finished-at="2024-09-16T12:29:01 IST" duration-ms="37" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkLastnameWithNumber -->
-        <test-method signature="checkPhoneValidation()[pri:3, instance:RestAssuredWadiaaAPI_BDD_Approch.register_user@52bf72b5]" started-at="2024-09-13T18:17:14 IST" name="checkPhoneValidation" finished-at="2024-09-13T18:17:14 IST" duration-ms="22" status="PASS">
+        <test-method signature="checkPhoneValidation()[pri:3, instance:RestAssuredWadiaaAPI_BDD_Approch.register_admin@6d763516]" started-at="2024-09-16T12:29:01 IST" name="checkPhoneValidation" finished-at="2024-09-16T12:29:01 IST" duration-ms="32" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkPhoneValidation -->
-        <test-method signature="checkEmailValidation()[pri:4, instance:RestAssuredWadiaaAPI_BDD_Approch.register_user@52bf72b5]" started-at="2024-09-13T18:17:14 IST" name="checkEmailValidation" finished-at="2024-09-13T18:17:14 IST" duration-ms="21" status="PASS">
+        <test-method signature="checkEmailValidation()[pri:4, instance:RestAssuredWadiaaAPI_BDD_Approch.register_admin@6d763516]" started-at="2024-09-16T12:29:01 IST" name="checkEmailValidation" finished-at="2024-09-16T12:29:01 IST" duration-ms="32" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkEmailValidation -->
-        <test-method signature="checkAccountTypeValidation()[pri:5, instance:RestAssuredWadiaaAPI_BDD_Approch.register_user@52bf72b5]" started-at="2024-09-13T18:17:14 IST" name="checkAccountTypeValidation" finished-at="2024-09-13T18:17:14 IST" duration-ms="19" status="PASS">
+        <test-method signature="checkPasswordValidation()[pri:5, instance:RestAssuredWadiaaAPI_BDD_Approch.register_admin@6d763516]" started-at="2024-09-16T12:29:01 IST" name="checkPasswordValidation" finished-at="2024-09-16T12:29:01 IST" duration-ms="22" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkAccountTypeValidation -->
-        <test-method signature="PostData()[pri:6, instance:RestAssuredWadiaaAPI_BDD_Approch.register_user@52bf72b5]" started-at="2024-09-13T18:17:14 IST" name="PostData" finished-at="2024-09-13T18:17:18 IST" duration-ms="3887" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PostData -->
-      </class> <!-- RestAssuredWadiaaAPI_BDD_Approch.register_user -->
+        </test-method> <!-- checkPasswordValidation -->
+      </class> <!-- RestAssuredWadiaaAPI_BDD_Approch.register_admin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

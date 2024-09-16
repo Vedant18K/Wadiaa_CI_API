@@ -21,7 +21,7 @@ public class register_user {
      
 
         RestAssured.baseURI = "http://localhost:3001/v1";
-        RestAssured.basePath = "/user/register-user";
+        RestAssured.basePath = "/users/register";
     }
 
    
